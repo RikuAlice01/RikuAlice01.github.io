@@ -54,7 +54,7 @@ a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
-  color: #fe5000;
+  color: #fefa00;
 }
 
 a:hover,
@@ -125,6 +125,10 @@ a:active {
   letter-spacing: .2em;
 }
 
+.site-navbar .navbar-nav>li>a:hover {
+  color:#fefa00 !important;
+}
+
 @media (max-width: 991.98px) {
   .site-navbar .navbar-nav>li>a {
     color: rgba(0, 0, 0, 0.7) !important;
@@ -132,7 +136,7 @@ a:active {
 }
 
 .site-navbar .navbar-nav.active>a {
-  color: #fe5000 !important;
+  color: #fefa00 !important;
 }
 
 .site-navbar.scrolled {
@@ -150,7 +154,7 @@ a:active {
 }
 
 .site-navbar.scrolled.bg-light {
-  background: #fff !important;
+  background: #333 !important;
 }
 
 .site-navbar.scrolled .navbar-brand {
@@ -178,7 +182,7 @@ a:active {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
-  background: #fe5000 !important;
+  background: #fefa00 !important;
 }
 
 .site-navbar.scrolled .navbar-brand {
@@ -190,19 +194,19 @@ a:active {
 }
 
 .site-navbar.scrolled .navbar-nav>li>a {
-  color: rgba(0, 0, 0, 0.7) !important;
+  color: #ffffff !important;
 }
 
 .site-navbar.scrolled .navbar-nav>li>a:hover {
-  color: #fe5000 !important;
+  color: #fefa00 !important;
 }
 
 .site-navbar.scrolled .navbar-nav>li>a.active {
-  color: #fe5000 !important;
+  color: #fefa00 !important;
 }
 
 .site-navbar.scrolled .navbar-nav>li.active>a {
-  color: #fe5000 !important;
+  color: #fefa00 !important;
 }
 
 .site-hero {
@@ -238,7 +242,7 @@ a:active {
 }
 
 .site-hero h1 strong {
-  color: #fe5000;
+  color: #fefa00;
   font-weight: 800;
 }
 
@@ -282,7 +286,7 @@ a:active {
 }
 
 .section-heading h2 strong {
-  color: #fe5000;
+  color: #fefa00;
   font-weight: 800;
 }
 
@@ -307,7 +311,7 @@ a:active {
 .site-service-item .icon {
   display: block;
   margin-bottom: 50px;
-  background: #edf0f2;
+  background: #fefa00;
   width: 100px;
   height: 100px;
   position: relative;
@@ -317,7 +321,7 @@ a:active {
 
 .site-service-item .icon span {
   font-size: 40px;
-  color: #fe5000;
+  color: #181818;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -372,7 +376,7 @@ a:active {
 }
 
 .site-list li.site-check:before {
-  color: #fe5000;
+  color: #fefa00;
   font-size: 16px;
   content: "\ebd3";
 }
@@ -408,13 +412,13 @@ a:active {
 }
 
 .progress .progress-bar {
-  background-color: #fe5000;
+  background-color: #fefa00;
   position: relative;
   border-radius: 4px;
 }
 
 .progress .progress-bar span {
-  background-color: #fe5000;
+  background-color: #fefa00;
   position: absolute;
   bottom: -20px;
   font-size: 10px;
@@ -434,7 +438,7 @@ a:active {
   position: absolute;
   pointer-events: none;
   border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #fe5000;
+  border-bottom-color: #fefa00;
   border-width: 5px;
   margin-left: -5px;
 }
@@ -462,11 +466,11 @@ a:active {
 }
 
 .filters ul li:hover {
-  color: #fe5000;
+  color: #fefa00;
 }
 
 .filters ul li.active {
-  color: #fe5000;
+  color: #fefa00;
 }
 
 .single-portfolio {
@@ -495,7 +499,7 @@ a:active {
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
   color: #fff;
-  background-color: #fe5000;
+  background-color: #fefa00;
   margin-left: auto;
   margin-right: auto;
 }
@@ -546,7 +550,7 @@ a:active {
 }
 
 .portfolio-area .filters ul li.active {
-  color: #fe5000;
+  color: #fefa00;
 }
 
 .portfolio-area .filters-content {
@@ -621,7 +625,7 @@ a:active {
   transition: all 0.4s ease;
 }
 
-.sc-card {
+.sc-cards {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -629,14 +633,11 @@ a:active {
   transition: all 0.3s ease-in-out;
 }
 
-.sc-card:hover {
+.sc-cards:hover {
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
   transform: translateY(-10px);
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
   transition: all 0.3s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -761,7 +762,7 @@ a:active {
 }
 
 .resume-item h3 {
-  color: #fe5000;
+  color: #fefa00;
   font-size: 20px;
 }
 
@@ -808,7 +809,7 @@ a:active {
 }
 
 .blog-entry .blog-entry-text h3 a:hover {
-  color: #fe5000;
+  color: #fefa00;
 }
 
 .blog-entry .meta {
@@ -822,7 +823,7 @@ a:active {
 }
 
 .blog-entry .meta a:hover {
-  color: #fe5000;
+  color: #fefa00;
 }
 
 .form-control {
@@ -874,7 +875,7 @@ a:active {
 }
 
 .site-contact-details li>span {
-  color: #fe5000;
+  color: #fefa00;
   letter-spacing: .1em;
   font-size: 12px;
   font-weight: 500;
@@ -972,7 +973,7 @@ a:active {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 
-  background: #fe5000;
+  background: #fefa00;
 }
 
 
