@@ -596,7 +596,7 @@ a:active {
   width: 100%;
 }
 
-.sc-card-product {
+.sc-cards-product{
   background: var(--primary-color);
   box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
   border-radius: 7px;
@@ -609,7 +609,7 @@ a:active {
   transition: all 0.3s ease-in-out;
 }
 
-.sc-card-product:hover {
+.sc-cards-product:hover {
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
@@ -647,12 +647,12 @@ a:active {
 }
 
 
-.sc-card-product .card-media {
+.sc-cards-product .card-media {
   position: relative;
   overflow: hidden;
 }
 
-.sc-card-profile {
+.sc-cards-profile {
   border-radius: 50%;
   width: 100%;
   overflow: hidden;
@@ -665,7 +665,6 @@ a:active {
 
 
 .image {
-  position: relative;
   opacity: 1;
   display: block;
   width: 100%;
